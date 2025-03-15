@@ -1,0 +1,4 @@
+1. Create a container and 2 hosts
+2. These hosts are sitting at different nested routes 
+3. Find a way to share the store and redux saga settings
+4. We need to have auth in the container store, defaulting to true maybe in the remotes
