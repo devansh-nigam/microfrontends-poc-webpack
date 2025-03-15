@@ -51,11 +51,7 @@ const commonConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Marketing Team",
-      filename: "index.html",
-      meta: {
-        viewport: "width=device-width, initial-scale=1",
-      },
+      template: "public/index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].[contenthash].css",
